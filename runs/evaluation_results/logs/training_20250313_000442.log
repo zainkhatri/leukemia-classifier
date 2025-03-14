@@ -1,0 +1,32 @@
+2025-03-13 00:04:42,732 - LeukemiaClassifierV5 - INFO - Created LeukemiaClassifierV5 with efficientnet backbone
+2025-03-13 00:04:42,732 - LeukemiaClassifierV5 - INFO - Input size: (224, 224), Classes: 2, Binary: True
+2025-03-13 00:04:42,732 - LeukemiaClassifierV5 - INFO - Using attention: True, Using focal loss: True
+2025-03-13 00:04:43,226 - LeukemiaClassifierV5 - INFO - Making standard predictions
+2025-03-13 00:04:55,568 - LeukemiaClassifierV5 - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+      Benign       0.89      0.83      0.86      1024
+   Malignant       0.64      0.76      0.69       409
+
+    accuracy                           0.81      1433
+   macro avg       0.77      0.79      0.78      1433
+weighted avg       0.82      0.81      0.81      1433
+
+2025-03-13 00:04:55,568 - LeukemiaClassifierV5 - INFO - 
+Confusion Matrix:
+2025-03-13 00:04:55,568 - LeukemiaClassifierV5 - INFO - TN: 852, FP: 172
+2025-03-13 00:04:55,568 - LeukemiaClassifierV5 - INFO - FN: 100, TP: 309
+2025-03-13 00:04:56,376 - LeukemiaClassifierV5 - ERROR - Error creating confusion matrix: name 'confusion_matrix' is not defined
+2025-03-13 00:04:57,119 - LeukemiaClassifierV5 - INFO - Evaluation completed successfully
+2025-03-13 00:04:57,119 - LeukemiaClassifierV5 - INFO - accuracy: 0.8102
+2025-03-13 00:04:57,119 - LeukemiaClassifierV5 - INFO - precision: 0.6424
+2025-03-13 00:04:57,119 - LeukemiaClassifierV5 - INFO - recall: 0.7555
+2025-03-13 00:04:57,119 - LeukemiaClassifierV5 - INFO - f1: 0.6944
+2025-03-13 00:04:57,119 - LeukemiaClassifierV5 - INFO - auc: 0.8515
+2025-03-13 00:04:57,119 - LeukemiaClassifierV5 - INFO - specificity: 0.8320
+2025-03-13 00:04:57,119 - LeukemiaClassifierV5 - INFO - threshold: 0.3619
+2025-03-13 00:04:57,119 - LeukemiaClassifierV5 - INFO - balanced_accuracy: 0.7938
+2025-03-13 00:04:57,119 - LeukemiaClassifierV5 - INFO - positive_predictive_value: 0.6424
+2025-03-13 00:04:57,119 - LeukemiaClassifierV5 - INFO - negative_predictive_value: 0.8950
+2025-03-13 00:04:57,119 - LeukemiaClassifierV5 - INFO - brier_score: 0.2065

@@ -1,0 +1,6 @@
+2025-03-12 23:42:40,390 - LeukemiaClassifierV5 - INFO - Created LeukemiaClassifierV5 with efficientnet backbone
+2025-03-12 23:42:40,390 - LeukemiaClassifierV5 - INFO - Input size: (224, 224), Classes: 2, Binary: True
+2025-03-12 23:42:40,390 - LeukemiaClassifierV5 - INFO - Using attention: True, Using focal loss: True
+2025-03-12 23:42:40,458 - LeukemiaClassifierV5 - ERROR - Error loading model: Error when deserializing class 'AttentionModule' using config={'name': 'attention_module', 'trainable': True, 'dtype': 'float32', 'reduction_ratio': 8, 'kernel_size': 7}.
+
+Exception encountered: AttentionModule.__init__() got an unexpected keyword argument 'name'

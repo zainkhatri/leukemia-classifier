@@ -1,0 +1,22 @@
+{
+    "accuracy": 0.8101884159106769,
+    "precision": 0.6424116424116424,
+    "recall": 0.7555012224938875,
+    "f1": 0.69438202247191,
+    "auc": 0.8514956448655255,
+    "specificity": 0.83203125,
+    "threshold": 0.3618987500667572,
+    "calibration_true": [
+        0.2803935347856641,
+        1.0
+    ],
+    "calibration_pred": [
+        0.3606266133063123,
+        0.40968107879161836
+    ],
+    "balanced_accuracy": 0.7937662362469438,
+    "positive_predictive_value": 0.6424116424116424,
+    "negative_predictive_value": 0.8949579831932774,
+    "optimal_f1_threshold": 0.36242079734802246,
+    "brier_score": 0.20652734460619226
+}
